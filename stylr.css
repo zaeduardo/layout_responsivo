@@ -1,0 +1,31 @@
+@import url("style/header.css");
+@import url("style/banner.css");
+@import url("/style/carrrossel.css");
+@import url("/style/topicos.css");
+@import url("/style/contato.css");
+@import url("/style/rodapr.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #eb9b00;
+    --azul-degrade: #2e01f79f;
+    --azul:#002F52;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans"; 
+    --preto: #000000;
+    --cinza: #474646;   
+    --cinza-claro: #858585;
+    
+
+    
+}
+   body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--branco);
+   }    
+
+
